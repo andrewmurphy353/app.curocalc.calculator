@@ -22,14 +22,14 @@ modules:
     sources:
       - type: archive
         url: https://github.com/andrewmurphy353/curo_app_bin/releases/download/2.6.2/curocalc-2.6.2-linux-x86_64.tar.gz
-        sha256: 723116b3ff5c38396964911ce5a812b29e6dbd05f1a350a3a5e7dc13b1cc773d
+        sha256: b24405bece55b7bd2247d59b5f5fa422d06d0ea693da18d4bb3314d70cb48f1a
         strip-components: 1
         dest: curocalc
         only-arches:
           - x86_64
       - type: archive
         url: https://github.com/andrewmurphy353/curo_app_bin/releases/download/2.6.2/curocalc-2.6.2-linux-arm64.tar.gz
-        sha256: 31f3a4492fe7a9dada584c607626496fb4689cce840237e5b2c708877ffa1b8d
+        sha256: 46871c66ed7741a34e973b5aa0c3acee2bd19ebb688fe305cfefffb6eb6c46bc
         strip-components: 1
         dest: curocalc
         only-arches:
